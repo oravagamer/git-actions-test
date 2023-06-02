@@ -1,4 +1,4 @@
-package org.git.actions.test.backend;
+package git.actions.test;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

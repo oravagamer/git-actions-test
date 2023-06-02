@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>git.actions.test</groupId>
+    <artifactId>git-actions-test</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>backend</module>
+        <module>frontend</module>
+    </modules>
+
+    <profiles>
+        <profile>
+            <id>oravagamer</id>
+            <properties>
+                <node.path>C:\msys64\mingw64\bin\</node.path>
+            </properties>
+        </profile>
+        <profile>
+            <id>github-ubuntu</id>
+            <properties>
+                <node.path/>
+            </properties>
+        </profile>
+    </profiles>
+</project>

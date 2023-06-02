@@ -4,6 +4,17 @@
     <option name="show" value="ASK" />
     <option name="description" value="" />
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Quarkus" url="file://$PROJECT_DIR$/backend" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/backend/pom.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_18">
     <output url="file://$PROJECT_DIR$/out" />
   </component>

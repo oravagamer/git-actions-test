@@ -1,4 +1,4 @@
-package org.git.actions.test.backend;
+package git.actions.test;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -12,10 +12,10 @@ public class ExampleResourceTest {
     @Test
     public void testHelloEndpoint() {
         given()
-          .when().get("/hello")
-          .then()
-             .statusCode(200)
-             .body(is("Hello from RESTEasy Reactive"));
+                .when().get("/hello")
+                .then()
+                .statusCode(200)
+                .body(is("Hello from RESTEasy Reactive"));
     }
 
 }
