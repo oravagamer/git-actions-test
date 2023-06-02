@@ -1,4 +1,4 @@
-package org.git.actions.test.backend;
+package git.actions.test;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
